@@ -21,6 +21,7 @@ Popular Person - make 20 friends
 Victorious - win 20 competitions
 Hard Loser - lose 10 competitions
 Finishing III - finish 50 goals
+# Synergy - win 5 competitions with friends
 
 Gold
 Finishing IV - finish 100 goals
