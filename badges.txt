@@ -4,6 +4,7 @@ Bronze
 Starting out - set a goal
 Friends! - make a friend
 Friendly Competition - start a competition with a friend
+# Together We Start - create a shared goal with your friends
 More goals - set 10 goals
 Reaching the finish line - finish a goal
 Marathon - finish a goal that took longer than 26 hours
@@ -29,6 +30,7 @@ God Mode - win 100 competitions
 Insane Person - get on the leaderboard for most goals done in a day (top 10)
 Smart Setter - set 100 goals
 Celebrity - make 100 friends
+# Share the wealth - win 25 competitions with friends
 
 Diamond
 Overpowered - win 1000 competitions
