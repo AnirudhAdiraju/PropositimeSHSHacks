@@ -15,9 +15,9 @@ Tournament Player - participate in 10 competitions
 Silver
 
 Finishing II - finish 10 goals
-Productive Guy - set 50 goals
+Productive Person - set 50 goals
 Marathon II - finish a goal that took a month or longer
-Popular Guy - make 20 friends
+Popular Person - make 20 friends
 Victorious - win 20 competitions
 Hard Loser - lose 10 competitions
 Finishing III - finish 50 goals
@@ -25,11 +25,11 @@ Finishing III - finish 50 goals
 Gold
 Finishing IV - finish 100 goals
 God Mode - win 100 competitions
-Insane Guy - get on the leaderboard for most goals done in a day (top 10)
+Insane Person - get on the leaderboard for most goals done in a day (top 10)
 Smart Setter - set 100 goals
-Mr. Celebrity - make 100 friends
+Celebrity - make 100 friends
 
 Diamond
 Overpowered - win 1000 competitions
 Finishing V - finish 500 goals
-Oof - lose 200 competitions
+Tough Luck - lose 200 competitions
