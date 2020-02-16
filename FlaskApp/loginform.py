@@ -17,7 +17,6 @@ class SignupForm(FlaskForm):
     lastName = StringField('Last Name', validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
     confirmPassword = PasswordField('Confirm Password', validators=[DataRequired()])
-    goalSetTime = SelectField('Which hour during the day do you want to be asked to set new goals?', choices='Times', label='times', validators=[DataRequired()])
     submit = SubmitField('Sign up!')
 
 units = ["seconds", "minutes", "hours", "days", "weeks", "years", "decades"]
@@ -27,7 +26,7 @@ units = ["seconds", "minutes", "hours", "days", "weeks", "years", "decades"]
 class GoalForm(FlaskForm):
     goal = StringField('Set Goal:', validators=[DataRequired()])
     notifyTime = StringField('Time to be notified for goal updates:', validators=[DataRequired()])
-    notifyUnits = SelectField(label='Units', choices=units)
+    notifyUnits = SelectField('Units', choices=list(enumerate(units)))
     goalLength = StringField('Time for goal', validators=[DataRequired()])
-    goalUnits = SelectField(label='Units', choices=units)
-
+    goalUnits = SelectField('Units', choices=list(enumerate(units)))
+    submit = SubmitField('Set your goal!')

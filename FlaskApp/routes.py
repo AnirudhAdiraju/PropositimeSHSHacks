@@ -1,6 +1,6 @@
 from flask import render_template, flash, redirect, request
 from app import app
-from app.loginform import LoginForm, SignupForm
+from app.loginform import LoginForm, SignupForm, GoalForm
 
 
 @app.route('/')
@@ -14,7 +14,7 @@ def signup():
     sign = SignupForm()
     if sign.validate_on_submit():
         flash('Signup requested for user {}, password {}'.format(
-            signup.username.data, signup.password.data))
+            sign.username.data, sign.password.data))
         return redirect('/index')
     return render_template('signup.html', title='Sign Up', form=sign)
 
@@ -31,4 +31,6 @@ def login():
 def goal():
     goal = GoalForm()
     if goal.validate_on_submit():
-        flash("New Goal set by ")
+        flash("New Goal set")
+        return redirect('/index')
+    return render_template('goal.html', title='Goals!', form=goal)
