@@ -19,7 +19,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,7 +61,6 @@
       <div class="container">
         <h1 class="masthead-heading mb-0">Propositime</h1>
         <h2 class="masthead-subheading mb-0">Taking Goal Setting To The Next Level</h2>
-        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
       </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -74,12 +73,12 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
-          <div class="p-5">
+          <div data-aos="fade-left" class="p-5">
             <img class="img-fluid rounded-circle" src="img/Propistime.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
+          <div data-aos="fade-right" class="p-5">
             <h2 class="display-4">Achieve Your Goals...For Real</h2>
             <p>Set long term goals or small, everyday reminders.</p>
           </div>
@@ -89,15 +88,15 @@
   </section>
 
   <section id ="badge">
-    <div class="container">
+    <div  class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <div class="p-5">
-            <img class="img-fluid rounded-square" src="img/medalbackground.png" alt="">
+          <div data-aos="fade-right" class="p-5">
+            <img class="img-fluid rounded-circle" src="img/Badges.png" alt="">
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="p-5">
+          <div data-aos="fade-left" class="p-5">
             <h2 class="display-4">Earn Badges</h2>
             <p>Get rewarded with special badges for your achievements.</p>
           </div>
@@ -110,12 +109,12 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
-          <div class="p-5">
-            <img class="img-fluid rounded-square" src="img/competition.png" alt="">
+          <div data-aos="fade-left" class="p-5">
+            <img class="img-fluid rounded-circle" src="img/competition.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
+          <div data-aos="fade-right" class="p-5">
             <h2 class="display-4">Compete With Your Friends</h2>
             <p>See what goals your friends are setting and create friendly competitions.</p>
           </div>
@@ -135,6 +134,10 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+   AOS.init(); 
+</script>
 
 </body>
 
