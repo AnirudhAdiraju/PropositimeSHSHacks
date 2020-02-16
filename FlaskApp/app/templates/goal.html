@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Set a Goal!</h1>
+    <form action="" method="POST" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.goal.label }}<br>
+            {{ form.goal(size=32) }}<br>
+
+        </p>
+        <p>
+            {{ form.notifyTime.label }}<br>
+            {{ form.notifyTime(size=32) }}<br>
+        </p>
+        <p>
+            {{ form.notifyUnits.label}}<br>
+            {{ form.notifyUnits }}<br>
+        </p>
+        <p>
+            {{ form.goalLength.label}}<br>
+            {{ form.goalLength(size=32)}}<br>
+        </p>
+        <p>
+            {{ form.goalUnits.label}}<br>
+            {{ form.goalUnits}}<br>
+        </p>
+        <p>
+            {{ forms.final.label}}<br>
+            {{ form.final(size=32)}}<br>
+        </p>
+        <p>
+             {{ forms.finalUnits.label}}<br>
+            {{ form.finalUnits(size=32)}}<br>
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
+
