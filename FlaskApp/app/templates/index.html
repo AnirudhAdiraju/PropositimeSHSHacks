@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,14 +12,14 @@
   <title>Propositime</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href='{{url_for("static",filename="vendor/bootstrap/css/bootstrap.min.css")}}' rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href=https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="/static/css/one-page-wonder.min.css" rel="stylesheet">
+  <link href='{{url_for("static",filename="css/one-page-wonder.min.css")}}' rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -74,7 +75,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div data-aos="fade-left" class="p-5">
-            <img class="img-fluid rounded-circle" src="/static/img/Propistime.PNG" alt="">
+            <img class="img-fluid rounded-circle" src='{{url_for("static",filename="img/Propistime.PNG")}}' alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
@@ -92,7 +93,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div data-aos="fade-right" class="p-5">
-            <img class="img-fluid rounded-circle" src="/static/img/gradientmedal2.PNG" alt="">
+            <img class="img-fluid rounded-circle" src='{{url_for("static",filename="img/gradientmedal2.PNG")}}' alt="">
           </div>
         </div>
         <div class="col-lg-6">
@@ -110,7 +111,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div data-aos="fade-left" class="p-5">
-            <img class="img-fluid rounded-circle" src="/static/img/competition.PNG" alt="">
+            <img class="img-fluid rounded-circle" src='{{url_for("static",filename="img/competition.PNG")}}' alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
@@ -132,8 +133,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="/static/vendor/jquery/jquery.min.js"></script>
-  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src='{{url_for("static",filename="vendor/jquery/jquery.min.js")}}'></script>
+  <script src='{{url_for("static",filename="vendor/bootstrap/js/bootstrap.bundle.min.js")}}'></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
    AOS.init();
